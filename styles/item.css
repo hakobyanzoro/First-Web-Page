@@ -1,0 +1,311 @@
+/* NAVBAR START */
+.no_view_1 {
+    height: 80px;
+}
+.under_nav {
+    width: 100vw;
+    height: 80px;
+}
+nav{
+    min-height: 80px;
+    max-width: 1680px;
+}
+nav a {
+    font-family: "BlenderProHeavy";
+    font-size: 16px;
+    color: black !important;
+}
+nav .navbar-nav a {
+    margin-right: 13px;
+}
+@media screen and (max-width: 1200px) {
+    nav .navbar-nav a {
+        margin: auto;
+    }
+}
+
+/* NAVBAR END */
+
+article .row {
+    max-width: 1680px;
+}
+
+
+
+
+
+/* slider */
+
+#object_carusel {
+    max-width: 430px;
+    margin-top: 100px;
+}
+#object_carusel .carousel-indicators {
+    margin-bottom: 290px;
+    
+}
+#object_carusel .carousel-indicators li{
+    border: 2px solid red;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: transparent;
+    margin-right: 5px;
+} 
+#object_carusel .carousel-indicators .active{
+    background-color: red;
+    border: solid red;
+}
+
+
+#object_carusel .carousel-inner {
+    max-width: 950px;
+}
+@media screen and (max-width: 1200px) {
+    #object_carusel .carousel-indicators {
+        margin-bottom: -80px;
+    }
+  }
+
+
+
+
+
+
+/* social */
+.upper {
+    margin-top: 100px;
+    margin-right: 243px;
+    line-height: 8px;
+}
+.upper p {
+    font-family: "BlenderProBook";
+    font-size: 14px;
+    color: #9cbf3e;
+}
+.stock {
+    min-width: 150px;
+}
+.social {
+    max-width: 150px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #303d4e;
+    word-spacing: 12px;
+    margin-top: -3px;
+}
+/* .about_item p {
+    font-family: "MuseoSansCyrl";
+} */
+.item_descr {
+    font-weight: 500;
+    font-size: 14px;
+    color: #888888;
+    word-spacing: 2px;
+}
+hr {
+    margin-top: 44px;
+}
+.desc {
+    font-weight: 500;
+    font-size: 18px;
+    color: #656f85;
+    margin-top: 45px;
+    margin-left: 5px;
+    word-spacing: 4px;
+}
+ul{
+    margin-top: 2px;
+    margin-left: 0 !important;
+}
+.about_item li {
+    color: #656f85;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: -17px !important;
+    margin-bottom: 18px;
+    line-height: 18px;
+    word-spacing: 2px;
+}
+.variants {
+    font-weight: 700;
+    font-size: 18px;
+    color: #656f85;
+    margin-left: 5px;
+    margin-top: 45px;
+}
+.bracket li {
+    font-weight: 500;
+    font-size: 14px;
+    color: #656f85;
+    margin-left: -17px !important;
+    line-height: 18px;
+    word-spacing: 2px;
+}
+
+.down {
+    width: 14px;
+    height: 8px;
+    background-image: url(../images/item/down.png);
+}
+.btn-group {
+    width: 320px;
+    height: 50px;
+    background-color: #269ac9;
+    border-radius: 10%;
+}
+.knopka {
+    margin-top: 15px;
+}
+.btn-group button {
+    background-color: #269ac9;
+    border-color: #269ac9;
+}
+.dropdown-item {
+    color: #269ac9 !important;
+}
+button a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #f8f8ff; 
+    font-family: "BlenderProBold";
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* title */
+
+
+
+.other_goods {
+    align-items: baseline;
+    max-width: 1160px;
+    margin-top: 100px;
+}
+.other_goods .hr {
+    background: black;
+    width: 42%;
+    height: 1px;
+}
+.other_goods .title {
+    width: 16%;
+    border: 1px solid black;
+}
+.other_goods .title p{
+    color: #4b586b;
+    font-size: 16px;
+    font-family: "BlenderProBold";
+    line-height: 20px;
+}
+
+/* ITEMS START */
+
+.news {
+    max-width: 1160px;
+    margin-top: 73px;
+}
+.news .container {
+    position: relative;
+    width: 300px;
+    height: 280px;
+    border: 1px solid #f5f5f5;
+}
+.card-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.news .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-image: url(../images/item/hower.png);
+    background-repeat:no-repeat;
+}
+.news .container:hover .overlay {
+    opacity: 1;
+}
+.mark {
+    height: 32px;
+    width: 65px;
+    right: 0;
+    left: 235px;
+    bottom: 20px;
+    top: 228px;
+}
+.card-body {
+    margin-top: 15px;
+    word-spacing: 1px;
+    margin-bottom: 60px;  
+}
+p.card-text {
+    font-family: "MuseoSansCyrl";
+    color: #4b586b;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+h5.card-title {
+    font-family: "BlenderProMedium";
+    font-size: 30px;
+    color: #303d4e;
+}
+
+/* ITEMS END */
+
+
+
+
+
+
+/* FOOTER START */
+
+.black {
+    width: 100%;
+    background: black;
+}
+footer {
+    position: relative;
+    height: 220px;
+    max-width: 1680px;
+    background: black;
+    margin-top: 90px;
+}
+.sxots {
+    background-image: url(../images/main/sxots.png);
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 1680px;
+    height: 7px;
+}
+.content {
+    position: absolute;
+    width: 100%;
+}
+.nkux {
+    max-width: 300px;
+    margin-top: 65px;
+    margin-bottom: 19px;
+}
+footer p {
+    color: ghostwhite;
+    /* font-family: "MuseoSansCyrl"; */
+    font-size: 12px;
+    word-spacing: 1px;
+    line-height: 14px;
+    margin-top: 11px;
+}
+/* FOOTER END */

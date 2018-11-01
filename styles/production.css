@@ -1,0 +1,178 @@
+/* NAVBAR START */
+.no_view_1 {
+    height: 80px;
+}
+.under_nav {
+    width: 100vw;
+    height: 80px;
+}
+nav{
+    min-height: 80px;
+    max-width: 1680px;
+}
+nav a {
+    font-family: "BlenderProHeavy";
+    font-size: 16px;
+    color: black !important;
+}
+nav .navbar-nav a {
+    margin-right: 13px;
+}
+@media screen and (max-width: 1200px) {
+    nav .navbar-nav a {
+        margin: auto;
+    }
+}
+
+/* NAVBAR END */
+
+h1, p {
+    font-family: "BlenderProMedium";
+}
+h1 {
+    font-size: 52px;
+    margin-top: 84px;
+}
+p {
+    font-size: 24px;
+    margin-top: 17px;
+    line-height: 30px;
+}
+.linear_box, .second_linear {
+    align-items: baseline;
+    max-width: 1160px;
+}
+.linear_box {
+    margin-top: 92px;
+}
+
+.linear_box .hr, .second_linear .hr {
+    background: black;
+    width: 42%;
+    height: 1px;
+}
+.linear_box .title, .second_linear .title {
+    width: 16%;
+    border: 1px solid black;
+}
+.title p, .second_linear .title p{
+    color: #4b586b;
+    font-size: 16px;
+    font-family: "BlenderProBold";
+    line-height: 20px;
+}
+.about p {
+    max-width: 1680px;
+    font-family: "BlenderProMedium";
+    font-size: 20px;
+    margin-top: 72px;
+}
+
+
+/* ITEMS START */
+
+.news {
+    max-width: 1160px;
+    margin-top: 73px;
+}
+.news .container {
+    position: relative;
+    width: 300px;
+    height: 280px;
+    border: 1px solid #f5f5f5;
+}
+.card-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.news .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-image: url(../images/production/hower.png);
+    background-repeat:no-repeat;
+}
+.news .container:hover .overlay {
+    opacity: 1;
+}
+.mark {
+    height: 32px;
+    width: 65px;
+    right: 0;
+    left: 235px;
+    bottom: 20px;
+    top: 228px;
+}
+.card-body {
+    margin-top: -3px;
+    word-spacing: 1px;
+    margin-bottom: 40px;  
+}
+p.card-text {
+    font-family: "MuseoSansCyrl";
+    color: #4b586b;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+h5.card-title {
+    font-family: "BlenderProMedium";
+    font-size: 30px;
+    color: #303d4e;
+}
+
+/* ITEMS END */
+
+.second_linear {
+    margin-top: 28px;
+}
+
+
+
+/* FOOTER START */
+
+.black {
+    width: 100%;
+    background: black;
+}
+footer {
+    position: relative;
+    height: 220px;
+    max-width: 1680px;
+    background: black;
+    margin-top: 90px;
+}
+.sxots {
+    background-image: url(../images/main/sxots.png);
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 1680px;
+    height: 7px;
+}
+.content {
+    position: absolute;
+    width: 100%;
+}
+.nkux {
+    max-width: 300px;
+    margin-top: 65px;
+    margin-bottom: 19px;
+}
+footer p {
+    color: ghostwhite;
+    /* font-family: "MuseoSansCyrl"; */
+    font-size: 12px;
+    word-spacing: 1px;
+    line-height: 14px;
+    margin-top: 11px;
+}
+/* FOOTER END */

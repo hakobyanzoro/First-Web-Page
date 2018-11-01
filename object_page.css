@@ -1,0 +1,192 @@
+/* NAVBAR START */
+.no_view_1 {
+    height: 80px;
+}
+nav{
+    min-height: 80px;
+    max-width: 1680px;
+}
+nav a {
+    font-family: "BlenderProHeavy";
+    font-size: 16px;
+    color: black !important;
+}
+nav .navbar-nav a {
+    margin-right: 13px;
+}
+@media screen and (max-width: 1200px) {
+    nav .navbar-nav a {
+        margin: auto;
+    }
+}
+
+/* NAVBAR END */
+
+.social {
+    max-width: 1060px;
+    margin-top: 65px;
+    padding: 0 55px;
+    margin-bottom: 0;
+}
+
+
+
+#object_carusel {
+    max-width: 1160px;
+    max-height: 507px;
+    margin-top: 30px;
+}
+#object_carusel .carousel-indicators {
+    margin-bottom: 1vh;
+}
+#object_carusel .carousel-indicators li{
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: transparent;
+} 
+#object_carusel .carousel-indicators .active{
+    background-color: red;
+    border: solid red;
+}
+
+
+#object_carusel .carousel-inner {
+    max-width: 950px;
+}
+
+#object_carusel .carousel-control-next {
+    background-image: url(../images/object_page/next.png);
+    width: 32px;
+    height: 60px;
+}
+#object_carusel .carousel-control-prev {
+    background-image: url(../images/object_page/Previous.png);
+    width: 32px;
+    height: 60px; 
+}
+
+
+
+.under_slider {
+    max-width: 950px;
+    margin-top: 34px;
+}
+.under_slider .up {
+    font-display: "MuseoSansCyrl";
+    font-weight: 300;
+    font-size: 14px;
+}
+.under_slider .down {
+    font-family: "BlenderProMedium";
+    font-size: 18px;
+    margin-top: -7px;
+}
+.under_slider .text {
+    margin-right: 85px;
+}
+
+
+.hr {
+    max-width: 1060px;
+    margin: 77px 0;
+}
+
+h1 {
+    font-family: "BlenderProMedium";
+    font-size: 48px;
+    color: #4b586b;
+}
+
+
+
+.news {
+    max-width: 1160px;
+}
+.card {
+    margin-top: 78px;
+}
+.news .container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.card-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.news .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-image: url(../images/news_all/hower.png);
+    background-repeat:no-repeat;
+}
+.news .container:hover .overlay {
+    opacity: 1;
+}
+.news p {
+    font-family: "MuseoSansCyrl";
+    font-weight: 500;
+    color: #f8f8ff;
+    font-size: 16px;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+.news .red {
+    color: #ea212d;
+    font-size: 24px;
+}
+
+
+
+
+
+/* FOOTER START */
+
+.black {
+    width: 100%;
+    background: black;
+}
+footer {
+    position: relative;
+    height: 220px;
+    max-width: 1680px;
+    background: black;
+    margin-top: 90px;
+}
+.sxots {
+    background-image: url(../images/main/sxots.png);
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 1680px;
+    height: 7px;
+}
+.content {
+    position: absolute;
+    width: 100%;
+}
+.nkux {
+    max-width: 300px;
+    margin-top: 65px;
+    margin-bottom: 19px;
+}
+footer p {
+    color: ghostwhite;
+    /* font-family: "MuseoSansCyrl"; */
+    font-size: 12px;
+    word-spacing: 1px;
+    line-height: 14px;
+    margin-top: 11px;
+}
+/* FOOTER END */
